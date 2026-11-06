@@ -146,8 +146,12 @@ Live-Daten. Für einen funktionalen Restore die Dienste gestoppt lassen, die bis
 Installation umbenennen, die Prüfkopie `~/decklab-restore-test/steamdeck-homeserver` nach
 `~/steamdeck-homeserver` verschieben, Dienste starten und Schritt 5 und 7 wiederholen.
 
-> **Achtung:** Das Archiv enthält die privaten Syncthing-Schlüssel (`key.pem`). Privat
-> aufbewahren und nicht weitergeben.
+> **Achtung:** Das Sicherungsarchiv, das Sie in diesem Schritt auf Ihrem Deck erzeugen,
+> enthält den privaten Syncthing-Schlüssel Ihres Geräts (`key.pem`). Wer das Archiv hat,
+> kann sich gegenüber Ihren anderen Syncthing-Geräten als Ihr Deck ausgeben. Archiv daher
+> privat aufbewahren und nicht weitergeben – etwa nicht in Foren oder Fehlerberichten.
+> Dieses Repository selbst enthält keine Schlüssel; jede Installation erzeugt in Schritt 2
+> ihr eigenes Schlüsselpaar.
 
 ## Aufräumen
 
@@ -156,10 +160,6 @@ systemctl --user disable --now decklab-caddy.service decklab-syncthing.service
 loginctl disable-linger "$USER"   # nur falls zuvor aktiviert
 rm -r ~/steamdeck-homeserver
 ```
-
-## Quellen
-
-Siehe [`Artikel_Quellen.txt`](Artikel_Quellen.txt).
 
 ## Lizenz
 
