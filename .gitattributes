@@ -1,0 +1,6 @@
+# Skripte laufen auf dem Steam Deck (Linux): immer LF, unabhaengig von core.autocrlf
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

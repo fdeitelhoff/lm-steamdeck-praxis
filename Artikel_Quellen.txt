@@ -1,0 +1,29 @@
+[1]: Valve Technische Daten des Steam Deck OLED.
+https://www.steamdeck.com/en/tech/oled/
+
+[2]: Valve Steamworks FAQ zu SteamOS Image Updates und Suspend.
+https://partner.steamgames.com/doc/steamhardware/steamdeck/faq
+
+[3]: Caddy Installation aus offiziellen ausführbaren Dateien.
+https://caddyserver.com/docs/install
+
+[4]: Caddy Einstieg in statische Dateiserver und hohe Ports.
+https://caddyserver.com/docs/quick-starts/static-files
+
+[5]: Caddy Dateiserver und Grenzen des Webverzeichnisses.
+https://caddyserver.com/docs/caddyfile/directives/file_server
+
+[6]: Syncthing Konfigurationspfade und Schlüsseldateien.
+https://docs.syncthing.net/users/config
+
+[7]: Syncthing Einstellungen für Verbindungen im lokalen Netz.
+https://docs.syncthing.net/users/tuning.html
+
+[8]: Syncthing FAQ zu Synchronisation Backup und Verwaltungsoberfläche.
+https://docs.syncthing.net/users/faq
+
+[9]: Syncthing Autostart als systemd Benutzerdienst.
+https://docs.syncthing.net/users/autostart
+
+[10]: systemd loginctl und Linger.
+https://www.freedesktop.org/software/systemd/man/latest/loginctl.html
